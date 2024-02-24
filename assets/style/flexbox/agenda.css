@@ -1,0 +1,21 @@
+
+
+
+
+
+
+@media screen and (min-width:720px){
+    .agenda__lista{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        justify-content: flex-end;
+        
+    }
+}
+
+@media screen and (min-width:1440px){
+    .agenda__lista{
+        justify-content: space-between;
+    }
+}
